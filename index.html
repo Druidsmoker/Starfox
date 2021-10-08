@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>VPXEngine</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body { margin: 0; }
+			canvas { display: block; }
+			.ac {  /* prevent dat-gui from being selected */
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+		</style>
+	</head>
+	<body>
+		<script type="module">
+			//-- Imports
+			//-- version : https://unpkg.com/browse/three@0.118.3/
+			//import * as THREE from './build/three.module.js';
+			import { MyGame } from './new/mygame.js';
+
+			let myGame = new MyGame();
+
+			myGame.loadPlayGround();
+			
+			myGame.createSettingsGUI();
+			myGame.showStats();
+
+			myGame.start();
+		</script>
+	</body>
+</html>
