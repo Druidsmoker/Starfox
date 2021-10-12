@@ -1,5 +1,5 @@
 import { Animator } from './engine/animator.js';
-import * as THREE from '../../build/threemodule.js';
+import * as THREE from '../build/threemodule.js';
 
 class PlayerAnimator extends Animator{
 	constructor(game, character){
