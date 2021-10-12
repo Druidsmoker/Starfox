@@ -1,6 +1,6 @@
 import { Character } from './engine/character.js';
 import { PlayerAnimator } from './playeranimator.js';
-import * as THREE from '../build/three.module.js';
+import * as THREE from '../build/threemodule.js';
 import { CharacterCollider } from './collider.js';
 import { PlayerController } from './playercontroller.js';
 

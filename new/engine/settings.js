@@ -1,4 +1,4 @@
-import { GUI } from '../../build/dat.gui.module.js';
+import { GUI } from '../../build/datguimodule.js';
 
 /* we keep our own settings in the Settings instance instead of relying on the dat.gui settings array
 : better performance, and more flexible if we want to change up dat.gui for something else without refactoring everything */

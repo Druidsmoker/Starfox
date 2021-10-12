@@ -1,4 +1,4 @@
-import * as THREE from '../../build/three.module.js';
+import * as THREE from '../../build/threemodule.js';
 
 class Utils{
 	static vectorUp = new THREE.Vector3(0, 1, 0);

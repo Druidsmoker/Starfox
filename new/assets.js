@@ -1,5 +1,5 @@
 import { Loader } from './engine/loader.js';
-import * as THREE from '../build/three.module.js';
+import * as THREE from '../build/threemodule.js';
 
 class Assets{
 	constructor(){
