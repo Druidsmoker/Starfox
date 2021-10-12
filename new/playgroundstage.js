@@ -1,7 +1,7 @@
 import { Stage } from './engine/stage.js';
 import { OrbitControls } from '../examples/jsm/controls/OrbitControls.js';
 import { PlayerCharacter } from './playercharacter.js';
-import * as THREE from '../build/three.module.js';
+import * as THREE from '../build/threemodule.js';
 
 class PlayGroundStage extends Stage {
 	constructor(game){

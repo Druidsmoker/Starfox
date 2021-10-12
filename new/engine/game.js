@@ -1,5 +1,5 @@
-import * as THREE from '../../build/three.module.js';
-import Stats from '../../build/stats.module.js';
+import * as THREE from '../../build/threemodule.js';
+import Stats from '../../build/statsmodule.js';
 import { Settings } from './settings.js';
 
 class Game{
